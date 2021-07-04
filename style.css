@@ -11,7 +11,10 @@ body{
 }
 
 .HamzaFoto{
-    height: 230px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .center {
@@ -52,11 +55,30 @@ body{
 .border{
     margin-left: 400px;
     margin-right: 400px;
-    border: 1px solid midnightblue;
+    border: 2px solid gold;
+    border-radius: 5px;
     
 }
 
 .colors{
     background-color: midnightblue;
     color:white;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.links{
+    margin-left: 800px;
+    margin-right: 800px;
+}
+
+.border2{
+    margin-left: 700px;
+    margin-right: 700px;
+    border: 2px solid gold;
+    border-radius: 5px;
+    
 }
