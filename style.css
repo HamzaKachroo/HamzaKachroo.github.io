@@ -50,8 +50,12 @@ body{
 }
 
 .border{
+    width: 100%;
     border: 1px solid midnightblue;
-    background-color: white;
-    color:midnightblue;
+    
 }
 
+.colors{
+    background-color: midnightblue;
+    color:white;
+}
